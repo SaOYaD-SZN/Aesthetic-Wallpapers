@@ -1,0 +1,17 @@
+# Runtime dependencies
+-r requirements.txt
+
+# Testing
+pytest>=8.0
+pytest-cov>=5.0
+
+# Code formatting
+black>=24.0
+isort>=5.13
+
+# Type checking
+mypy>=1.9
+types-requests>=2.31
+
+# Linting
+flake8>=7.0
